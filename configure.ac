@@ -20,7 +20,7 @@ CXXFLAGS="$CXXFLAGS -I/usr/local/include"
 LDFLAGS="$LDFLAGS -L/usr/local/lib"
 
 dnl add the external library to the list of libraries which will be used for our test program
-LIBS="-lch-pal -pthread $LIBS"
+LIBS="-lch-pal -pthread -lrt $LIBS"
 
 dnl check for the presence of 'libtotest'
 AC_MSG_CHECKING([for the ch-pal availability])
