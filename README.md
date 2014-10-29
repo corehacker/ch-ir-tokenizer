@@ -1,3 +1,9 @@
+
+ch-ir-tokenizer
+=============
+
+[![Build Status](https://travis-ci.org/corehacker/ch-ir-tokenizer.png?branch=master)](https://travis-ci.org/corehacker/ch-ir-tokenizer)
+
 General Information                                                              
 ===================                                                              
 This package contains source code for the application that parses set of files
